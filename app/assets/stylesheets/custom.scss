@@ -97,7 +97,6 @@ footer {
 }
 
 /* sidebar */
-
 aside {
   section.user_info {
     margin-top: 20px;
@@ -133,8 +132,18 @@ aside {
   margin-top: 15px;
 }
 
-/* forms */
+/* Users index */
+.users {
+  list-style: none;
+  margin: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid $gray-lighter;
+  }
+}
 
+/* forms */
 input, textarea, select, .uneditable-input {
   border: 1px solid #bbb;
   width: 100%;
