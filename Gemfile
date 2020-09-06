@@ -26,6 +26,9 @@ group :development do
   gem 'spring-watcher-listen', '2.0.1'
   gem 'better_errors'
   gem 'binding_of_caller'
+  gem 'ruby-debug-ide'
+  gem 'debase'
+  gem 'debase-ruby_core_source', '0.10.9'
 end
 
 group :test do
